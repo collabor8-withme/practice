@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-const printDesc = require('./printDesc');
-const printVersion = require('./printVersion');
+const printDesc = require('./printDesc.js');
+const printVersion = require('./printVersion.js');
 
 var argv = require("minimist")(process.argv.slice(2))
 
